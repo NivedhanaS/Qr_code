@@ -1,0 +1,53 @@
+body{
+    position: fixed;
+    background-color:#D5E1EF;
+    font-family:"Outfit",sans-serif;
+}
+#desc_content{
+    color:hsl(218, 15%, 66%);
+    font-size: 15px;
+    font-weight: 400;
+    padding-bottom: 19px;
+}
+#desc{
+    font-size:22px;
+    font-weight: 700;
+}
+#info{
+    padding: 15px 5px 5px 5px;
+    float: center;
+    display: block;
+    text-align:center;
+    width:300px;
+    border-radius: 15px;
+    background-color: white;
+}
+img{
+    border-radius: 15px;
+    height: 305px;
+    width:281px;
+}
+    
+    
+@media screen and (min-width:370px){
+    body{
+        margin:134px 85px ;
+
+    }
+}  
+@media screen and (min-width:600px){
+    body{
+        margin:134px 305px ;
+    }
+}  
+@media screen and (min-width:1440px){
+    body{
+        margin:134px 595px ;
+    }
+}  
+
+
+
+
+
+
